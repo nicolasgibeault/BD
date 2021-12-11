@@ -26,7 +26,7 @@ namespace PFE.Client.Application
             // Creates a new client
             MqttClientOptionsBuilder builder = new MqttClientOptionsBuilder()
                                                     .WithClientId("Dev.To")
-                                                    .WithTcpServer("localhost", 707);
+                                                    .WithTcpServer("70.52.17.228", 707);
 
             // Create client options objects
             ManagedMqttClientOptions options = new ManagedMqttClientOptionsBuilder()
